@@ -1,0 +1,182 @@
+.big-box, html, body {
+  height: 100%;
+  width: 100%;
+  background:#D5D5D5;
+}
+/*Random article img*/
+.big-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.random img{
+  height: 120%;
+  width: 100%;
+  
+  
+}
+
+.random-art-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 3;
+  width: 40%;
+  
+}
+.random-empty{
+  padding: 20px;
+  
+}
+.random{
+  display: flex;
+  width: 100%;
+  
+}
+.random-art-box a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+/*Results*/
+.result {
+  padding: 1em;
+  flex:5;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.wikiBlock a{
+  text-decoration: none;
+  color: black;
+}
+
+.wikiBlock{
+  
+  background-color: ghostwhite;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0em 0em 1em 1em;
+  border-radius: 10px;
+  
+}
+
+
+.wikiBlock:hover,
+.wikiBlock:focus {
+  border-left: 8px solid;
+  border-color: #DCBBA0;
+  color: ghostwhite;
+}
+
+/*Search box*/
+
+.search-box-box {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#form {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+ 
+}
+#form input {
+  
+  width: 10em;
+  height:2em;
+  border:2px solid #fff;
+  background:transparent;
+  border-radius:30px;
+  text-indent:-40px;
+  transition:all 300ms linear 300ms;
+  outline:none;
+}
+
+#form button {
+  width:10.06em;
+  height:2.2em;
+  border-radius:30px;
+  border:none;
+  margin-left: -10.18em;
+  background-color: #DCA0A0; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+  outline:none;
+  transition:all 100ms linear 200ms;
+   
+}
+
+#form.active input {
+  width:20em;
+  text-indent:40px;
+  background:#fff;
+  transition:all 300ms linear 300ms;
+}
+
+#form.active button {
+  width: 5.7em;
+  height: 2.2em;
+  margin-left: -5.8em;
+  background-color: #DCA0A0;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:all 300ms linear 300ms;
+}
+
+#myBtn a{
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+  font-weight: 550;
+  padding: .5em
+  }
+
+#myBtn span {
+  color: black;
+  font-weight: 550;
+}
+
+@media (min-width: 1150px) {
+  
+  #form{
+    display
+  }
+  #form.active input {
+    width: 50em;
+    top:50%;
+    left: 50%;
+  }
+  
+}
+
+@media (max-width: 350px) {
+  
+  
+  #form.active input {
+    width: 15em;
+  }
+  
+}

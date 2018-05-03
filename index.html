@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Phi's Wikipedia Viewer</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+
+<!--flex Wrapper-->
+<div class="big-box">
+  
+  <!--Random article-->
+  <div class="random-art-box">
+    <div class="random-empty"></div>
+    <div class="random">
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><img src="https://drive.google.com/uc?id=1h24h_k4uvuFmLxilt0CxkJ9uODxneqV7"></img></a>
+    </div>
+    
+  </div>
+  
+  <!--Search box's box-->
+  <div class= "search-box-box">
+    <div class="search-box-box">
+      <div id="form">
+        <input id="myInput" type="text" class="search">
+        <button id="myBtn" onclick="toggleSearchForm();">
+          <span>Click to Start</span>
+        
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!--Display search results-->
+  <div class="result">
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
