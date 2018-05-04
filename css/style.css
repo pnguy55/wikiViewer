@@ -13,7 +13,7 @@
 }
 
 .random img{
-  height: 120%;
+  height: 100%;
   width: 100%;
   
   
@@ -27,14 +27,19 @@
   flex: 3;
   width: 40%;
   
+  
 }
 .random-empty{
   padding: 20px;
   
+  
 }
 .random{
   display: flex;
-  width: 100%;
+  width: 40%;
+  
+  align-items: center;
+  justify-content: center;
   
 }
 .random-art-box a{
@@ -42,8 +47,6 @@
   color: black;
   
 }
-
-
 /*Results*/
 .result {
   padding: 1em;
