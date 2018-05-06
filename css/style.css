@@ -13,9 +13,8 @@
 }
 
 .random img{
-  height: 100%;
+  max-height: 15em;
   width: 100%;
-  
   
 }
 
@@ -25,28 +24,25 @@
   justify-content: center;
   flex-direction: column;
   flex: 3;
-  width: 40%;
-  
+  width: 100%;
   
 }
 .random-empty{
   padding: 20px;
-  
+  width: 100%;
   
 }
 .random{
   display: flex;
-  width: 40%;
-  
-  align-items: center;
-  justify-content: center;
-  
+  width: 30%;
+  align-items: center
 }
 .random-art-box a{
   text-decoration: none;
   color: black;
   
 }
+
 /*Results*/
 .result {
   padding: 1em;
