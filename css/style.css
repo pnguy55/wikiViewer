@@ -180,3 +180,11 @@
   }
   
 }
+
+@media (max-height: 375px){
+  
+  .random-art-box{
+    display: none;
+  }
+  
+}
