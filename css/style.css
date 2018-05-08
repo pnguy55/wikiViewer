@@ -15,6 +15,9 @@
 .random img{
   max-height: 10em;
   max-width: 10em;
+  height: 100%;
+  width: 100%;
+  
 }
 
 .random-art-box {
@@ -22,8 +25,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  flex: 2;
+  flex: 1;
   width: 100%;
+  
   
 }
 .random-empty{
@@ -36,6 +40,7 @@
   width: 20%;
   align-items: center;
   justify-content: center;
+  
 
 }
 .random-art-box a{
@@ -44,10 +49,11 @@
   
 }
 
+
 /*Results*/
 .result {
   padding: 1em;
-  flex:2;
+  flex:3;
   width: 80%;
   display: flex;
   align-items: center;
@@ -81,7 +87,7 @@
 /*Search box*/
 
 .search-box-box {
-  flex: 2;
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,7 +187,7 @@
   
 }
 
-@media (max-height: 375px){
+@media (max-height: 555px){
   
   .random-art-box{
     display: none;
